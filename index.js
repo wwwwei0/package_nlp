@@ -1,5 +1,7 @@
-let ictclas = require('./lib/ictclas/ictclas.js');
+let nlpir = require('./lib/nlpir.js');
+let oops = require('./lib/oops.js');
 
 module.exports = {
-  ictclas
+  nlpir,
+  oops
 }

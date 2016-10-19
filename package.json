@@ -1,10 +1,11 @@
 {
   "name": "nlp_sf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "natural language processing",
   "main": "index.js",
   "scripts": {
-    "test": "node examples/demo_oops.js"
+    "start": "node examples/demo_oops.js",
+    "test": "node examples/demo_nlpir.js"
   },
   "repository": {
     "type": "git",
