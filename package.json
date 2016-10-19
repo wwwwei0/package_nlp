@@ -1,0 +1,34 @@
+{
+  "name": "nlp_sf",
+  "version": "0.0.1",
+  "description": "natural language processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples/demo_oops.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soonfy/soonfy_nlp.git"
+  },
+  "keywords": [
+    "nlp",
+    "natural language processing",
+    "natural",
+    "language",
+    "processing"
+  ],
+  "author": {
+    "name": "soonfy",
+    "email": "soonfy@163.com",
+    "url": "https://github.com/soonfy"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soonfy/soonfy_nlp/issues"
+  },
+  "homepage": "https://github.com/soonfy/soonfy_nlp#readme",
+  "dependencies": {
+    "ffi": "^2.1.0",
+    "iconv-lite": "^0.4.13"
+  }
+}
