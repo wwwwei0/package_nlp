@@ -39,8 +39,8 @@
   
 ## api  
 
-  -- [nlpir](###nlpir)  
-  -- [oops](###oops)  
+  -- [nlpir](#nlpir)  
+  -- [oops](#oops)  
 
 ### nlpir  
   * description  
