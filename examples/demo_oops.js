@@ -21,6 +21,6 @@ let params = {
   dict,
   query
 }
-let res = oops.divide(params);
 
-console.log(res);
+console.log(oops.divide(params));
+console.log(oops.divide(text));
