@@ -92,9 +92,12 @@
 
   custom divide params:  
   ```
+  let path = require('path');
   let text = '这是待分词文本，调用oops接口直接分词并且统计词频。';
+  let userDict = '../assets/userDict.txt';
+  userDict = path.join(__dirname, userDict);
   let dict = {
-    userDict: '../assets/userDict.txt',
+    userDict,
     userWord: ['两国关系 n']
   };
   let query = {
