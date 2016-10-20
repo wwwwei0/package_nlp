@@ -43,8 +43,12 @@
   - [oops](#oops)  
 
 ### nlpir  
-  * **description**  
+  1. **description**  
   > 原生自然语言处理工具，包含分词标注，情感分析等。  
+
+  2. **.init()**  
+
+  3. **.exit()**  
 
 ### oops  
   1. **description**  
