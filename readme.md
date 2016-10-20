@@ -51,8 +51,7 @@
   > 封装自然语言处理工具，包含分词并统计词频，情感分析等。  
 
   2. **loading**  
-  first you need to load oops.  
-  this is the preferred method:  
+  first you need to load oops. this is the preferred method:  
   ```
   let nlp = require('nlp_sf');
   let {oops} = nlp;
@@ -72,7 +71,7 @@
   custom divide params:  
   ```
   let text = '这是待分词文本，调用oops接口直接分词并且统计词频。';
-  let dict = let dict = {
+  let dict = {
     userDict: '../assets/userDict.txt',
     userWord: ['两国关系 n']
   };
