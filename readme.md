@@ -43,18 +43,30 @@
   - [oops](#oops)  
 
 ### nlpir  
-  1. **description**  
-  > 原生自然语言处理工具，包含分词标注，情感分析等。  
+  - description  
+  > 原生自然语言处理工具，包含分词标注，情感分析等。
 
-  2. **.init()**  
+  - loading  
+  first you need to load nlpir. this is the preferred method:  
+  ```
+  let nlp = require('nlp_sf');
+  let {nlpir} = nlp;
+  ```
 
-  3. **.exit()**  
+  optionally, you also can load nlpir by the method:  
+  ```
+  let {nlpir} = require('nlp_sf');
+  ```
+
+  - .init()  
+
+  - .exit()  
 
 ### oops  
-  1. **description**  
+  - description  
   > 封装自然语言处理工具，包含分词并统计词频，情感分析等。  
 
-  2. **loading**  
+  - loading  
   first you need to load oops. this is the preferred method:  
   ```
   let nlp = require('nlp_sf');
@@ -66,7 +78,7 @@
   let {oops} = require('nlp_sf');
   ```
 
-  3. **.divide(params)**  
+  - .divide(params)  
   simply, method to divide a string and return array consist of the top 100 words sort by frequency.  
   ```
   let arr = oops.divide('这是待分词文本，调用oops接口直接分词并且统计词频。');
