@@ -30,6 +30,7 @@
   "homepage": "https://github.com/soonfy/soonfy_nlp#readme",
   "dependencies": {
     "ffi": "^2.1.0",
-    "iconv-lite": "^0.4.13"
+    "iconv-lite": "^0.4.13",
+    "xml2json": "^0.10.0"
   }
 }

@@ -1,17 +1,17 @@
 <?xmlversion="1.0"encoding="GB2312"?>
 <NLPIR>
-	<TagSet>ICTPOS.map</TagSet>//锟斤拷锟皆憋拷注锟斤拷映锟斤拷锟侥硷拷
-	<UserDict>on</UserDict>//On锟斤拷UserDictionaryapplied;Off:notapplied锟斤拷
-	<UserDictPrior>Off</UserDictPrior>//锟矫伙拷锟绞碉拷锟斤拷锟斤拷,Addedin2006-03-16,requiredbyNECOn锟斤拷锟矫伙拷锟绞碉拷锟酵猴拷锟侥词碉拷锟斤拷同时锟叫的词汇，锟矫伙拷锟绞碉拷锟斤拷锟饺ｏ拷锟斤拷锟斤拷锟杰诧拷要锟斤拷锟矫ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷锟侥词碉拷锟叫的词讹拷锟斤拷锟斤拷为锟矫伙拷锟绞典，锟斤拷效锟斤拷锟绞碉拷锟戒反
-	<FieldDict>on</FieldDict>//On锟斤拷FieldDictionaryapplied;Off:notapplied锟斤拷  
+	<TagSet>ICTPOS.map</TagSet>//词性标注集映射文件
+	<UserDict>on</UserDict>//On：UserDictionaryapplied;Off:notapplied；
+	<UserDictPrior>on</UserDictPrior>//用户词典优先,Addedin2006-03-16,requiredbyNECOn：用户词典和核心词典中同时有的词汇，用户词典优先，本功能不要滥用，如果将核心词典中的词都设置为用户词典，其效果适得其反
+	<FieldDict>on</FieldDict>//On：FieldDictionaryapplied;Off:notapplied；  
 	<GranularityContorl>off</GranularityContorl>
-	<Log>on</Log>//On,Off锟斤拷锟斤拷锟界：Off:锟截憋拷锟斤拷志锟斤拷锟杰ｏ拷On:锟斤拷锟斤拷锟斤拷志锟斤拷锟斤拷
-	<version>2013</version>//系统锟芥本锟斤拷
-	<Modify>2012-11-14</Modify>//系统锟斤拷锟斤拷锟睫讹拷时锟斤拷
-	<Lexicon>2012-11-14</Lexicon>//锟绞碉拷锟斤拷锟斤拷锟睫讹拷时锟斤拷
-	<Sentiment>On</Sentiment>//On,Off锟斤拷锟斤拷锟界：Off:锟截憋拷锟斤拷锟叫凤拷锟斤拷锟斤拷锟杰ｏ拷On:锟斤拷锟斤拷锟斤拷锟叫凤拷锟斤拷锟斤拷锟斤拷
-	<adaptive>true</adaptive>//锟斤拷锟斤拷应锟街词ｏ拷默锟斤拷为false锟斤拷锟斤拷锟斤拷应锟街词碉拷效锟绞伙拷锟较碉拷
-	<FinerSegCombined>false</FinerSegCombined>//true:锟斤拷细锟叫分斤拷锟斤拷模式锟斤拷锟叫伙拷锟斤拷锟今共和癸拷 锟叫分斤拷锟斤拷为锟斤拷 锟叫伙拷锟斤拷锟今共和癸拷 锟叫伙拷 锟斤拷锟斤拷 锟斤拷锟酵癸拷锟斤拷锟斤拷默锟斤拷为false;
-	<author>锟脚伙拷平锟斤拷士</author>//锟斤拷锟斤拷
-	<Contact>pipy_zhang@msn.com</Contact>//锟斤拷锟斤拷锟斤拷系锟斤拷式
+	<Log>on</Log>//On,Off；例如：Off:关闭日志功能；On:打开日志功能
+	<version>2013</version>//系统版本号
+	<Modify>2012-11-14</Modify>//系统最近修订时间
+	<Lexicon>2012-11-14</Lexicon>//词典最近修订时间
+	<Sentiment>On</Sentiment>//On,Off；例如：Off:关闭情感分析功能；On:打开情感分析功能
+	<adaptive>true</adaptive>//自适应分词，默认为false，自适应分词的效率会较低
+	<FinerSegCombined>false</FinerSegCombined>//true:粗细切分结合模式（中华人民共和国 切分结果为： 中华人民共和国 中华 人民 共和国），默认为false;
+	<author>张华平博士</author>//作者
+	<Contact>pipy_zhang@msn.com</Contact>//作者联系方式
 </NLPIR>
