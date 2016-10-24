@@ -26,10 +26,7 @@
   +--examples----测试程序  
   |  
   |  
-  +--index.js----原生nlpir接口  
-  |  
-  |  
-  +--oops.js----封装oops接口  
+  +--index.js----程序入口  
   |  
   |  
   +--package.json  
