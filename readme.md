@@ -1,12 +1,12 @@
 # natural language processing  
 
 ## description  
-  > Nodejs环境下自然语言处理工具，包含分词标注，情感分析等。  
+  > the Natural Language Processing tools under the nodeJs running time, including Chinese word segmentation, sentiment analysis and so on.  
 
 ## simple to use  
   ```
   let {oops} = require('nlp_sf');
-  console.log(oops.divide('这是待分词文本，调用oops接口直接分词并且统计词频。'))
+  console.log(oops.divide('这是待分词文本，调用oops接口直接分词并且统计词频。'));
   ```
 
 ## [installation](https://www.npmjs.com/package/nlp_sf)  
@@ -41,7 +41,7 @@
 
 ### nlpir  
   **description**  
-  > 原生自然语言处理工具，包含分词标注，情感分析等。
+  > the native Natural Language Processing tools.  
 
   **loading**  
   first you need to load nlpir. this is the preferred method:  
@@ -67,7 +67,7 @@
 
 ### oops  
   **description**  
-  > 封装自然语言处理工具，包含分词并统计词频，情感分析等。  
+  > the interface of the Natural Language Processing.  
 
   **loading**  
   first you need to load oops. this is the preferred method:  
