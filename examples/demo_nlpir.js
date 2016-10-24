@@ -40,10 +40,10 @@ let {ictclas} = nlpir;
 /**
  * 测试sentiment
  */
-let xml2json = require('xml2json');
+// let xml2json = require('xml2json');
 
-let {sentiment} = nlpir;
-sentiment.init();
+// let {sentiment} = nlpir;
+// sentiment.init();
 // console.log(sentiment.getSentimentPoint(text));
 // console.log(sentiment.getSentencePoint(text));
 // let xml = sentiment.getSentencePoint(text);
@@ -52,4 +52,4 @@ sentiment.init();
 // console.log(sentiment.getOneObjectResult('', text, '考研时'));
 // console.log(sentiment.getOneObjectResult(title, text, '军事'));
 // console.log(sentiment.getMultiObjectResult(title, text, '../assets/rule.xml'));
-sentiment.exit();
+// sentiment.exit();

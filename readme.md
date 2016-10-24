@@ -113,3 +113,26 @@
   }
   let arr = oops.divide(params);
   ```
+
+  **.sense(params)**  
+  simply, method to sense a string and return object consist of positive point and negative point.  
+  ```
+  let arr = oops.sense('这是待情感分析文本，调用oops接口分析并且返回情感分析结果。');
+  ```
+
+  custom sense params:  
+  ```
+  let path = require('path');
+  let title = '情感分析';
+  let content = '这是待情感分析文本，调用oops接口分析并且返回情感分析结果。';
+  let target = '情感';
+  let userDict = '../assets/userDict.txt';
+  userDict = path.join(__dirname, userDict);
+  let params = {
+    content,
+    target,
+    title,
+    userDict
+  }
+  let obj = oops.sense(params);
+  ```
