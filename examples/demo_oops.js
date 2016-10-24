@@ -10,6 +10,7 @@ let text = '国防部新闻局今日就中柬军事合作答记者问时表示�
 
 let userDict = '../assets/userDict.txt';
 userDict = path.join(__dirname, userDict);
+console.log(userDict);
 let dict = {
   userDict,
   userWord: ['两国关系 n']
@@ -26,14 +27,15 @@ let params = {
   query
 }
 
-// console.log(oops.divide(params));
+console.log(oops.divide(params));
 
 let content = text;
 console.log(oops.sense(content));
 let target = '杜特尔特';
 params = {
   target,
-  content
+  content,
+  userDict
 }
 console.log(oops.sense(params));
 console.log(oops.sense({content}));
