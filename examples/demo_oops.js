@@ -23,12 +23,13 @@ let query = {
   top: 20,
   freq: 0,
   len: 1,
+  join: true,
   tags: ['n']
 }
 let params = {
   text: texts,
-  // dict,
-  // query
+  dict,
+  query
 }
 
 console.log(oops.divide(params));
