@@ -134,3 +134,12 @@
   }
   let obj = oops.sense(params);
   ```
+
+## update license  
+  license only use one month, download license and copy to Data dir.  
+
+### divide  
+  [NLPIR.user](https://github.com/NLPIR-team/NLPIR/tree/master/License/license%20for%20a%20month/NLPIR-ICTCLAS%E5%88%86%E8%AF%8D%E6%8E%88%E6%9D%83)  
+
+### sense  
+  [sentiment.user](https://github.com/NLPIR-team/NLPIR/blob/master/License/license%20for%20a%20month/Sentiment%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E6%8E%88%E6%9D%83.rar)  
