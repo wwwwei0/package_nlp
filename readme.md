@@ -88,6 +88,20 @@
   ```
 
   custom divide params:  
+  _**default**_  
+  ```
+  dict = {},
+  query = {
+    top: 100,
+    freq: 0,
+    len: 1,
+    join: false,
+    tags: ['n', 'a']
+  }
+  ```
+  _set top is -999, export all keywords_  
+  _text is either String or array_  
+  _[tags](http://ictclas.nlpir.org/nlpir/html/readme.htm#_Toc34628482)_
   ```
   let path = require('path');
   let text = '这是待分词文本，调用oops接口直接分词并且统计词频。';
@@ -133,6 +147,15 @@
     userDict
   }
   let obj = oops.sense(params);
+  ```
+
+  **.distinguish(array)**  
+  first update dict, second use distinguish  
+  folder /lib/lexical store .yml dict, updateDict read the .yml dict , and update .txt dict store /lib/dict folder  
+  ```
+  let arr = oops.divide(params);
+  oops.updateDict();
+  console.log(oops.distinguish(arr));
   ```
 
 ## update license  
