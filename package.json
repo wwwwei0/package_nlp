@@ -1,6 +1,6 @@
 {
   "name": "nlp_sf",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "natural language processing",
   "main": "index.js",
   "scripts": {

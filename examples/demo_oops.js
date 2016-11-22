@@ -26,19 +26,19 @@ let dict = {
   userWord: ['两国关系 n']
 }
 let query = {
-  top: 20,
-  freq: 0,
+  // top: 20,
+  freq: 1,
   len: 1,
-  join: true,
+  join: false,
   tags: ['n']
 }
 let params = {
   text: texts,
-  dict,
-  query
+  // dict,
+  // query
 }
 
-// console.log(oops.divide(params));
+console.log(oops.divide(params));
 
 let content = text;
 // console.log(oops.sense(content));
