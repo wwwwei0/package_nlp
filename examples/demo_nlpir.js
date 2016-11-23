@@ -22,6 +22,7 @@ let {ictclas} = nlpir;
 // ictclas.setTagSet(0);
 
 // console.log(ictclas.paragraphProcess(text));
+// console.log(ictclas.paragraphProcess(text));
 
 // let source = './asssets/source.txt';
 // let result = './assets/result.txt';
