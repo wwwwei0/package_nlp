@@ -108,7 +108,7 @@
   let userDict = '../assets/userDict.txt';
   userDict = path.join(__dirname, userDict);
   let dict = {
-    userDict,
+    userDict: userDict,
     userWord: ['两国关系 n']
   };
   let query = {
@@ -119,9 +119,9 @@
     tags: ['n']
   };
   let params = {
-    text,
-    dict,
-    query
+    text: text,
+    dict: dict,
+    query: query
   }
   let arr = oops.divide(params);
   ```
@@ -141,10 +141,10 @@
   let userDict = '../assets/userDict.txt';
   userDict = path.join(__dirname, userDict);
   let params = {
-    content,
-    target,
-    title,
-    userDict
+    content: content,
+    target: target,
+    title: title,
+    userDict: title
   }
   let obj = oops.sense(params);
   ```
