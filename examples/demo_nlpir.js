@@ -11,9 +11,9 @@ let text = '国防部新闻局今日就中柬军事合作答记者问时表示�
 /**
  * 测试ictclas
  */
-let {ictclas} = nlpir;
+// let {ictclas} = nlpir;
 
-// ictclas.init(1);
+// ictclas.init();
 
 // ictclas.importUserDict(path.join(__dirname, '../assets/userDict.txt'), false);
 
@@ -21,7 +21,6 @@ let {ictclas} = nlpir;
 
 // ictclas.setTagSet(0);
 
-// console.log(ictclas.paragraphProcess(text));
 // console.log(ictclas.paragraphProcess(text));
 
 // let source = './asssets/source.txt';
