@@ -158,6 +158,15 @@
   console.log(oops.distinguish(arr));
   ```
 
+  **.divdis(params)**  
+  divide + distinguish  
+  first update dict, second use divdis  
+  folder /lib/lexical store .yml dict, updateDict read the .yml dict , and update .txt dict store /lib/dict folder  
+  ```
+  oops.updateDict();
+  console.log(oops.divdis(arr));
+  ```
+
 ## update license  
   license only use one month, download license and copy to Data dir.  
 
