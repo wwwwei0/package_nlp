@@ -35,13 +35,14 @@ let query = {
   join: false,
   tags: ['n']
 }
+texts = {}
 let params = {
   text: texts,
   // dict,
   // query
 }
 
-// console.log(oops.divide(params));
+// console.log(oops.divide(params, false));
 
 let content = text;
 // console.log(oops.sense(content));
@@ -54,5 +55,5 @@ params = {
 // console.log(oops.sense(params));
 // console.log(oops.sense({content}));
 
-oops.updateDict();
-console.log(oops.divdis(texts));
+// oops.updateDict();
+// console.log(oops.divdis(texts));

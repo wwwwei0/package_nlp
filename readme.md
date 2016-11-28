@@ -81,8 +81,9 @@
   let {oops} = require('nlp_sf');
   ```
 
-  **.divide(params)**  
+  **.divide(params, error)**  
   simply, method to divide a string and return array consist of the top 100 words sort by frequency.  
+  default error = false, not throw error.  
   ```
   let arr = oops.divide('这是待分词文本，调用oops接口直接分词并且统计词频。');
   ```
