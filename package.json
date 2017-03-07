@@ -4,8 +4,8 @@
   "description": "natural language processing",
   "main": "index.js",
   "scripts": {
-    "start": "node examples/demo_oops.js",
-    "test": "node examples/demo_nlpir.js"
+    "nlpir": "node examples/demo_nlpir.js",
+    "oops": "node examples/demo_oops.js"
   },
   "repository": {
     "type": "git",
