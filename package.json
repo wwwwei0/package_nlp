@@ -1,6 +1,6 @@
 {
   "name": "oops_sf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "natural language processing",
   "main": "index.js",
   "scripts": {
