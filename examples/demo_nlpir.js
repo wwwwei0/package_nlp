@@ -53,3 +53,11 @@ let text = '国防部新闻局今日就中柬军事合作答记者问时表示�
 // console.log(sentiment.getOneObjectResult(title, text, '军事'));
 // console.log(sentiment.getMultiObjectResult(title, text, '../assets/rule.xml'));
 // sentiment.exit();
+
+/**
+ *  测试trainingClassify
+ */
+
+let {trainingClassify} = nlpir;
+trainingClassify.init();
+console.log(`object`);
