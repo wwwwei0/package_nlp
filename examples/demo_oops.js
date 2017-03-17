@@ -8,6 +8,7 @@ let text = '国防部新闻局今日就中柬军事合作答记者问时表示�
 
 // text = "Where's my money？Johnny's";
 console.log(oops.divide(text));
+console.log(oops.sense(text));
 
 // let key = oops.divide(text);
 // console.log(key);
