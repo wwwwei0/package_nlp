@@ -45,7 +45,8 @@ let params = {
 // console.log(oops.divide(params, false));
 
 let content = text;
-// console.log(oops.sense(content));
+console.log(oops.sense(content));
+
 let target = '杜特尔特';
 params = {
   target,
