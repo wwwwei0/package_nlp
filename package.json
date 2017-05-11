@@ -1,11 +1,12 @@
 {
   "name": "oops_sf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "natural language processing",
   "main": "index.js",
   "scripts": {
     "nlpir": "node examples/demo_nlpir.js",
-    "oops": "node examples/demo_oops.js"
+    "oops": "node examples/demo_oops.js",
+    "dict": "node examples/update_dict.js"
   },
   "repository": {
     "type": "git",

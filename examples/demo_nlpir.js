@@ -16,23 +16,7 @@ let {
   ictclas
 } = nlpir;
 
-let lib = path.join(__dirname, '..', 'lib');
 ictclas.init();
-
-// # 字典初始化
-let auth = path.join(lib, 'auth.txt');
-ictclas.importUserDict(auth, true);
-
-// # 更新字典
-let dictp = path.join(lib, 'dicts');
-let dicts = fs.readdirSync(dictp);
-dicts.map((dict) => {
-  let dictf = path.join(dictp, dict);
-  let res = ictclas.importUserDict(dictf, false);
-  console.log(res);
-})
-ictclas.exit();
-console.log(`update dicts over.`);
 
 // ictclas.importUserDict(path.join(__dirname, '../assets/userDict.txt'), false);
 
@@ -40,13 +24,13 @@ console.log(`update dicts over.`);
 
 // ictclas.setTagSet(0);
 
-// console.log(ictclas.paragraphProcess(text));
+console.log(ictclas.paragraphProcess(text));
 
 // let source = './asssets/source.txt';
 // let result = './assets/result.txt';
 // ictclas.fileProcess(source, result, 1);
 
-// console.log(ictclas.getParagraphProcessAWordCount(text));
+console.log(ictclas.getParagraphProcessAWordCount(text));
 
 // console.log(ictclas.getWordFreqStat(text));
 
@@ -54,21 +38,21 @@ console.log(`update dicts over.`);
 
 // console.log(ictclas.getLastErrorMsg());
 
-// ictclas.exit();
+ictclas.exit();
 
 /**
  * 测试sentiment
  */
 // let xml2json = require('xml2json');
 
-// let {sentiment} = nlpir;
-// sentiment.init();
+let {sentiment} = nlpir;
+sentiment.init();
 // console.log(sentiment.getSentimentPoint(text));
-// console.log(sentiment.getSentencePoint(text));
+console.log(sentiment.getSentencePoint(text));
 // let xml = sentiment.getSentencePoint(text);
 // let json = xml2json.toJson(xml);
 // console.log(json);
 // console.log(sentiment.getOneObjectResult('', text, '考研时'));
 // console.log(sentiment.getOneObjectResult(title, text, '军事'));
 // console.log(sentiment.getMultiObjectResult(title, text, '../assets/rule.xml'));
-// sentiment.exit();
+sentiment.exit();
