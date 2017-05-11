@@ -167,7 +167,3 @@
   oops.updateDict();
   console.log(oops.divdis(arr));
   ```
-
-## update license  
-  [license](https://github.com/NLPIR-team/NLPIR) only use one month, download license and copy to Data dir.  
-  
