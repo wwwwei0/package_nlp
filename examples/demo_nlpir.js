@@ -16,7 +16,7 @@ let {
   ictclas
 } = nlpir;
 
-ictclas.init();
+// ictclas.init();
 
 // ictclas.importUserDict(path.join(__dirname, '../assets/userDict.txt'), false);
 
@@ -24,13 +24,13 @@ ictclas.init();
 
 // ictclas.setTagSet(0);
 
-console.log(ictclas.paragraphProcess(text));
+// console.log(ictclas.paragraphProcess(text));
 
 // let source = './asssets/source.txt';
 // let result = './assets/result.txt';
 // ictclas.fileProcess(source, result, 1);
 
-console.log(ictclas.getParagraphProcessAWordCount(text));
+// console.log(ictclas.getParagraphProcessAWordCount(text));
 
 // console.log(ictclas.getWordFreqStat(text));
 
@@ -38,7 +38,7 @@ console.log(ictclas.getParagraphProcessAWordCount(text));
 
 // console.log(ictclas.getLastErrorMsg());
 
-ictclas.exit();
+// ictclas.exit();
 
 /**
  * 测试sentiment
